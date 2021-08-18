@@ -10,3 +10,101 @@ Fuente de la página
   Estilos 200 y 400
 */
 
+*{box-sizing: border-box;}
+
+body{
+    margin: 0px;
+    background-color: #333;
+    width: 1000px;
+    background-color:  hsl(300, 24%, 96%);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.pattern-top{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.pattern-bot{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.bloque-uno-dos{
+display: flex;
+text-align: center;
+justify-content: space-around;
+
+}
+
+.bloque-uno{
+width: 400px;
+
+}
+
+.starts{
+width: 400px;
+
+}
+
+.cards{
+display: flex;
+width: 1200px;
+color: hsl(0, 0%, 90%);
+
+}
+.card-uno{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    margin: 50px;
+}
+.card-dos{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    margin: 50px;
+
+
+
+}
+.card-tres{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+
+    margin: 50px;
+
+
+
+}
+
+.start-uno{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+.start-dos{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+
+
+}
+.start-tres{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+
+
+}
