@@ -10,16 +10,22 @@ Fuente de la página
   Estilos 200 y 400
 */
 
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+ font-family: 'Karla', sans-serif;;
+}
+
 
 body{
     margin: 0px;
     background-color: #333;
-    width: 1000px;
-    background-color:  hsl(300, 24%, 96%);
+    width: 1500px;
+    background-color:  hsl(0, 0%, 90%);
     margin-left: auto;
     margin-right: auto;
 
+}
+.dios{
+    width: 100%;
 }
 
 .pattern-top{
@@ -43,33 +49,51 @@ justify-content: space-around;
 
 .bloque-uno{
 width: 400px;
+color: hsl(300, 43%, 22%);
+font-size: 2rem;
+
+}
+
+.tittle{
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+.text{
+    font-size: 1rem;
 
 }
 
 .starts{
 width: 400px;
 
+
 }
 
 .cards{
 display: flex;
-width: 1200px;
+width: 100%;
 color: hsl(0, 0%, 90%);
+justify-content: space-evenly;
 
 }
 .card-uno{
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    width: 450px;
+    width: 600px;
     height: 200px;
     margin: 50px;
+    position: relative;
+    left: 100px;
 }
 .card-dos{
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    width: 450px;
+    width: 600px;
     height: 200px;
     margin: 50px;
+    position: relative;
+    top: 40px;
+    left: 60px
 
 
 
@@ -77,10 +101,13 @@ color: hsl(0, 0%, 90%);
 .card-tres{
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    width: 450px;
+    width: 600px;
     height: 200px;
-
     margin: 50px;
+    position: relative;
+    top: 80px;
+    left: 20px
+
 
 
 
@@ -90,13 +117,28 @@ color: hsl(0, 0%, 90%);
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    word-spacing: 5px;
+    width: 400px;
+    letter-spacing: -1px;
+
+
+
 }
 .start-dos{
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: -30px;
+    word-spacing: 5px;
+    width: 400px;
+    letter-spacing: -1px;
+
 
 
 }
@@ -104,7 +146,30 @@ color: hsl(0, 0%, 90%);
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    margin: 20px;
+    margin: 15px;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: -60px;
+    word-spacing: 5px;
+    width: 400px;
+    letter-spacing: -1px;
 
 
+
+
+}
+
+.text-start{
+    padding: 6px;
+    text-align: left;
+}
+
+.image{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.purple{
+    color:hsl(333, 80%, 67%);
 }
