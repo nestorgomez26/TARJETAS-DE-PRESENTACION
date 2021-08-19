@@ -74,7 +74,6 @@ font-size: 2rem;
     margin-left: 25px;
     opacity: 80%;
 
-
 }
 
 .starts{
@@ -108,10 +107,7 @@ justify-content: space-evenly;
     margin: 50px;
     position: relative;
     top: 40px;
-    left: 60px;
-
-
-
+    left: 40px;
 
 }
 .card-tres{
@@ -122,11 +118,7 @@ justify-content: space-evenly;
     margin: 50px;
     position: relative;
     top: 80px;
-    left: 20px;
-
-
-
-
+    left: -20px;
 
 }
 
@@ -141,8 +133,6 @@ justify-content: space-evenly;
     width: 400px;
     letter-spacing: -1px;
 
-
-
 }
 .start-dos{
     padding: 20px;
@@ -156,8 +146,6 @@ justify-content: space-evenly;
     width: 400px;
     letter-spacing: -1px;
 
-
-
 }
 .start-tres{
     padding: 20px;
@@ -170,9 +158,6 @@ justify-content: space-evenly;
     word-spacing: 5px;
     width: 400px;
     letter-spacing: -1px;
-
-
-
 
 }
 
@@ -189,8 +174,6 @@ justify-content: space-evenly;
     position: relative;
     top: 25px;
     left: 25px;
-
-
 
 }
 
@@ -225,14 +208,10 @@ justify-content: space-evenly;
     left: -10px;
     width: 14px;
 
-
 }
 .starttres{
     position: relative;
     left: -20px;
     width: 14px;
-
-
-
 
 }
