@@ -10,3 +10,229 @@ Fuente de la página
   Estilos 200 y 400
 */
 
+*{
+ box-sizing: border-box;
+ font-family: 'Karla', sans-serif;;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1500px;
+    background-color:  hsl(0, 0%, 90%);
+  
+    overflow: hidden;
+}
+.dios{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+    position: relative;
+    top: 100px;
+}
+
+.pattern-top{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+
+}
+.pattern-bot{
+    position: absolute;
+    right: 0px;
+    bottom: -110px;
+}
+
+.bloque-uno-dos{
+display: flex;
+text-align: center;
+justify-content: space-around;
+
+}
+
+.bloque-uno{
+width: 400px;
+color: hsl(300, 43%, 22%);
+font-size: 2rem;
+
+}
+
+.tittle{
+    font-weight: bolder;
+    letter-spacing: -1px;
+    font-size: 2.5rem;
+
+    
+}
+.text{
+    font-size: .8rem;
+    padding: 5px;
+    text-align: justify;
+    width: 300px;
+    padding-left: 15px;
+    margin-left: 25px;
+    opacity: 80%;
+
+
+}
+
+.starts{
+width: 400px;
+
+
+}
+
+.cards{
+display: flex;
+width: 100%;
+color: hsl(0, 0%, 90%);
+justify-content: space-evenly;
+
+}
+.card-uno{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+    left: 100px;
+
+}
+.card-dos{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+
+
+
+
+}
+.card-tres{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+
+
+
+
+
+}
+
+.start-uno{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    word-spacing: 5px;
+    width: 400px;
+    letter-spacing: -1px;
+
+
+
+}
+.start-dos{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: -30px;
+    word-spacing: 5px;
+    width: 400px;
+    letter-spacing: -1px;
+
+
+
+}
+.start-tres{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: hsl(300, 24%, 96%);
+    position: relative;
+    right: -60px;
+    word-spacing: 5px;
+    width: 400px;
+    letter-spacing: -1px;
+
+
+
+
+}
+
+.text-start{
+    padding: 6px;
+    text-align: left;
+    opacity: 70%;
+}
+
+.image{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+
+
+
+}
+
+.purple{
+    color:hsl(333, 80%, 67%);
+}
+
+.text-card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+    left: -10px;
+  
+}
+
+.parrafo{
+    margin: 30px;
+    margin-top: 0px;
+    text-align: left;
+
+}
+
+.start{
+    position: relative;
+    left: -20px;
+    width: 14px;
+}
+.startdos{
+    position: relative;
+    left: -10px;
+    width: 14px;
+
+
+}
+.starttres{
+    position: relative;
+    left: -20px;
+    width: 14px;
+
+
+
+
+}
